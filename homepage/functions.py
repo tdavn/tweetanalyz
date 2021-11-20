@@ -2,16 +2,14 @@ import tweepy as tw
 import pandas as pd
 import nltk
 from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
+
 # from nltk.tokenize import word_tokenize
 import re
 import string
 
-from tensorflow.keras.preprocessing.sequence import pad_sequences
 
-from tensorflow.keras.preprocessing.text import Tokenizer
 
-lemmatizer = WordNetLemmatizer()
+
 stop_words = stopwords.words('english')
 
 # Tweet collector
