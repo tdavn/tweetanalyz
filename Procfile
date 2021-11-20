@@ -1,0 +1,1 @@
+web: gunicorn aml3406.wsgi --log-file -
